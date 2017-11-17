@@ -1,0 +1,26 @@
+{
+  "name": "react-app-rewire-idx",
+  "version": "1.0.0",
+  "description":
+    "Add babel-plugin-idx to create-react-app via react-app-rewired.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktorivarsson/react-app-rewire-idx"
+  },
+  "keywords": [
+    "babel-plugin-idx",
+    "create-react-app",
+    "idx",
+    "react-app-rewired",
+    "react-app-rewire-idx"
+  ],
+  "author": "Viktor Ivarsson",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-idx": "^2.2.0"
+  }
+}
