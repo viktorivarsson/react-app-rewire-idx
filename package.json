@@ -1,8 +1,7 @@
 {
   "name": "react-app-rewire-idx",
-  "version": "1.0.0",
-  "description":
-    "Add babel-plugin-idx to create-react-app via react-app-rewired.",
+  "version": "1.0.1",
+  "description": "Add babel-plugin-idx to create-react-app via react-app-rewired.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
