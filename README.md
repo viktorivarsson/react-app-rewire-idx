@@ -15,22 +15,24 @@ npm install --save-dev  react-app-rewire-idx
 
 ## Usage
 
+#### 1) Using override (react-app-rewired < 1.3.4)
+
 ```js
 // config-overrides.js
 const rewireIdx = require('react-app-rewire-idx');
 
-module.exports = function override (config, env) {
+module.exports = function override(config, env) {
   config = rewireIdx(config, env);
   // other rewires...
   return config;
 }
 ```
 
-or
+#### 2) Using compose
 
 ```js
 // config-overrides.js
-const { compose } = require('react-app-required')
+const { compose } = require('react-app-rewired')
 const rewireIdx = require('react-app-rewire-idx');
 
 module.exports = compose(
